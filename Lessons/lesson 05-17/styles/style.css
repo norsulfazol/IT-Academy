@@ -1,0 +1,40 @@
+p {
+    color: #738a16;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.hugetext {
+    font-size: 15px;
+    font-style: oblique;
+}
+
+#headline {
+    font-style:italic;
+}
+
+#header {
+    margin-bottom: 5%;
+}
+
+#footer {
+    margin-top: 5%;
+}
+
+#content {
+    display: flex;
+}
+
+#content_left {
+    width: 30%;
+}
+
+#content_center {
+    width: 50%;
+}
+
+#content_right {
+    width: 20%;
+}

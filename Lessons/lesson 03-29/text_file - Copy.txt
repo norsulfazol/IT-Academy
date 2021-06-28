@@ -1,0 +1,3 @@
+some test new line 
+another new line
+this line was appended

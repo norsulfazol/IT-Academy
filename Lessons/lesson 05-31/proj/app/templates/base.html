@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'app/css/style.css' %}">
+    <script type="text/javascript" src="{% static 'app/scripts/script.js' %}"></script>
+</head>
+<body>
+    <div class="header">
+        <a href="{% url 'posts'%}"><h1 id='logo'>My Blog</h1></a>
+    </div>
+    <hr>
+    <div class="content">
+        <div class="left"></div>
+        <div class="center">
+                {% block maincontent %}
+                {% endblock %}
+        </div>
+        <div class="right"></div>
+    </div>
+    <hr>
+    <div class="footer">Copyright @Django</div>
+</body>
+</html>
